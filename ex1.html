@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phase 10</title>
+</head>
+
+<body>
+    <script>
+        // 1. Ecrivez un programme permettant de créer un tableau,
+        // dont la taille est saisie au clavier.
+        //2.Ensuite l'utilisateur doit rentrer les différentes valeurs du tableau.
+        //Puis votre programme doit afficher le contenu du tableau.
+        var e = parseInt(window.prompt("Combien voulez-vous d'éléments dans votre tableau ?"));
+        var tableau = new Array(e);
+        var taille = tableau.length;
+        for (var i = 1; i <= taille; i++) {
+            var truc = window.prompt("Inserez l'élément à inserer");
+            console.log("N°" + i + " est " + truc);
+        }
+
+    </script>
+</body>
+
+</html>
